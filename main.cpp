@@ -23,7 +23,7 @@ int main() {
             };
 
     std::vector<Process> randomProcesses = generateProcesses(6, 20);
-    printProcesses(randomProcesses);
+    printProcesses(processes);
 
     std::ofstream out("out.txt");
     std::cout.rdbuf(out.rdbuf());
